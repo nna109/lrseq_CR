@@ -1,0 +1,21 @@
+name: lrseq_cr
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - notebook
+  - jupyterlab
+  - ipykernel
+  - pip
+
+  - pip:
+      - upsetplot
